@@ -51,10 +51,8 @@ h2{
 }
 
 .personal-info{
-    background-color: #EFE0CD;
-    border-style:double;    
-    box-shadow: 5px 5px 10px#000000;
-    border-radius: 5ch;
+    background-color: #fde0aa;
+    
 }
 
 #l-align{
@@ -63,8 +61,8 @@ h2{
 
 #edu-cont{
     margin-top: 4%;   
-    background-color: #EFE0CD;
-    border-style:double;
+    background-color:#fde0aa;
+    
 }
 
 #name{
