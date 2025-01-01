@@ -4,64 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resume.css">
-    <title>STATIC INTERACTIVE RESUME</title>
+    <title>Static Interactive Resume</title>
 </head>
 <body>
+    <!-- Main form container -->
     <form class="container">
+        <!-- Right-side section: profile image and contact info -->
         <div class="right-side">
-            <img src="profile.png" alt="my profile pic" width="200" height="200">
+            <img src="profile.png" alt="My Profile Picture" width="200" height="200">
+
+            <!-- Experience section -->
             <section class="left">
-                <h2 id="exp">EXPERIENCE</h2>
+                <h2 id="exp">Experience</h2>
                 <div id="experience-content">
                     <p id="align">No Experience</p>
                 </div>
                 <button type="button" class="toggle-btn" onclick="toggleContent('experience-content')">Show Less</button>
-                <br/>
-                <h2 id="exp">SKILLS</h2> 
+                
+                <!-- Skills section -->
+                <h2 id="exp">Skills</h2>
                 <div id="skills-content">
                     <ul>
-                        <li>typescript</li>
-                        <li>Hyper Text Markup Language(HTML)</li>
-                        <li>Cascading Style Sheets (CSS)</li>                    
-                        <li>Artificial Intelligence (AI) </li>
+                        <li>TypeScript</li>
+                        <li>Hyper Text Markup Language (HTML)</li>
+                        <li>Cascading Style Sheets (CSS)</li>
+                        <li>Artificial Intelligence (AI)</li>
                         <li>Large Language Models (LLMs)</li>
                         <li>Prompt Engineering (basic)</li>
                     </ul>
                 </div>
                 <button type="button" class="toggle-btn" onclick="toggleContent('skills-content')">Show Less</button>
+                
+                <!-- Contact section -->
                 <h2 id="l-align">Contact</h2>
-                <p id="l-align">                    
-                    <b><i>Phone number:</i></b> 0301257747
-                    <br/>
-                    <b><i>Linked in:</i></b> Aniqa Abdur Raheem
-                    <br/>
+                <p id="l-align">
+                    <b><i>Phone Number:</i></b> 0301257747<br/>
+                    <b><i>LinkedIn:</i></b> Aniqa Abdur Raheem<br/>
                     <b><i>Email:</i></b> aniqa.guljana129@gmail.com
-                </p> 
+                </p>
             </section>
         </div>
 
+        <!-- Left-side section: personal info and education -->
         <div class="left-side">
-            <h1 id="name"><b><i>Aniqa Abdur Raheem</i></b></h1>  <!--d/f for css-->
+            <h1 id="name"><b><i>Aniqa Abdur Raheem</i></b></h1>
+            
+            <!-- Personal information section -->
             <section class="personal-info">
-                <h2>PERSONAL INFORMATION</h2>
+                <h2>Personal Information</h2>
                 <h3>About Me</h3>
-                <p id="align">I’m a Student Developer at the Governor Sindh IT Initiative, specializing in Cloud Applied Generative AI Engineering. My skills include HTML, CSS, and TypeScript, developed through my IT course at GIAIC. Currently, I am also studying Artificial Intelligence with the Presidential Initiative for Artificial Intelligence and Computing (PIAIC). I have experience with Freelancer for copytyping work and enjoy writing and art. I aim to become a professional storyteller and creative writer.</p>
+                <p id="align">
+                    I’m a Student Developer at the Governor Sindh IT Initiative, specializing in Cloud Applied Generative AI Engineering. My skills include HTML, CSS, and TypeScript, developed through my IT course at GIAIC. Currently, I am also studying Artificial Intelligence with the Presidential Initiative for Artificial Intelligence and Computing (PIAIC). I have experience with Freelancer for copytyping work and enjoy writing and art. I aim to become a professional storyteller and creative writer.
+                </p>
                 <h3>Interest</h3>
                 <div id="interest-content">
                     <ul class="interest">
                         <li>Art</li>
-                        <li>writing</li>
-                        <li>baking</li>
-                        <li>cycling</li>
-                        <li>skating</li>
+                        <li>Writing</li>
+                        <li>Baking</li>
+                        <li>Cycling</li>
+                        <li>Skating</li>
                     </ul>
                 </div>
                 <button type="button" class="toggle-btn" onclick="toggleContent('interest-content')">Show Less</button>
             </section>
+
+            <!-- Education section -->
             <section id="edu-cont">
-                <h2 id="l-align">EDUCATION</h2>
-                <p id="l-align"><b>School:</b>Ayesha Bawany Academy <br/>O'level<br/> commerece</p>                          
-                <p id="l-align"><b>College:</b>Titan college<br/>A'level<br>commerce</p>
+                <h2 id="l-align">Education</h2>
+                <p id="l-align"><b>School:</b> Ayesha Bawany Academy<br/>O'Level<br/>Commerce</p>
+                <p id="l-align"><b>College:</b> Titan College<br/>A'Level<br/>Commerce</p>
             </section>
         </div>
     </form>
