@@ -1,100 +1,98 @@
-body{    
-    background:  #351007;
-    color: rgb(0, 0, 0);
+/* Styling for the overall body */
+body {    
+    background: #351007;
+    color: #000000;
     padding: 15rem;
 }
 
-form{
-    background-color:#d8bd8a;
+/* Styling for the form container */
+form {
+    background-color: #d8bd8a;
     display: flex;
     border-top-left-radius: 30ch;
-    border-style:ridge;
-    border-color:#EFE0CD;
+    border-style: ridge;
+    border-color: #EFE0CD;
 }
 
-img{    
+/* Profile image styling */
+img {    
     margin-top: 10%;    
     border-radius: 50%;
-    box-shadow:5px 5px 10px #351007;
+    box-shadow: 5px 5px 10px #351007;
     margin-left: 4%;
 }
 
-.right-side{
+/* Right-side section styling */
+.right-side {
     margin-left: 5%;
     padding: 2%;
 }
 
-h2{
-    background-color:#410100;
+/* Headings styling */
+h2 {
+    background-color: #410100;
     color: #ffffff;
     border-radius: 2ch;
     text-align: center;
     border-style: groove;
-    box-shadow:5px 5px 10px #351007;
+    box-shadow: 5px 5px 10px #351007;
 }
 
-.left{
-    background-color:#fde0aa;
-    border-radius: 2ch;
-    border-style:double;
-    border-width: 1cap;
-}
-
-.left-side{   
+/* Left and left-side sections styling */
+.left, .left-side {   
     background-color: #fde0aa;
-    border-style:double;
+    border-radius: 2ch;
+    border-style: double;
     border-width: 1cap;
 }
 
-#align{
+#align {
     margin-left: 5%;
 }
 
-.personal-info{
+.personal-info {
     background-color: #fde0aa;
-    
 }
 
-#l-align{
+#l-align {
     margin-left: 1%;
 }
 
-#edu-cont{
+#edu-cont {
     margin-top: 4%;   
-    background-color:#fde0aa;
-    
+    background-color: #fde0aa;
 }
 
-#name{
+#name {
     margin-left: 5%;
     background-color: #d8bd8a;
     border-style: double;
-    box-shadow:inset 5px 5px 10px#000000;
+    box-shadow: inset 5px 5px 10px #000000;
     text-align: center;
     margin: 0%;
 }
 
-.interest{
-    background-color: #e9ccaa ;
+/* Interest list styling */
+.interest {
+    background-color: #e9ccaa;
     margin: 2cap;
     border-bottom-left-radius: 3ch;
     border-bottom-right-radius: 3ch;
     padding-bottom: 2ch;
 }
 
-.toggle-btn{
+/* Toggle button styling */
+.toggle-btn {
     background-color: #410100;
     color: #ffffff;
     border: none;
     border-radius: 0ch;
-    border-style:groove;
+    border-style: groove;
     padding: 10px 20px;
     cursor: pointer;
-  
     margin: 2%;
 }
 
 .toggle-btn:hover {
     background-color: #351007;
-    
 }
